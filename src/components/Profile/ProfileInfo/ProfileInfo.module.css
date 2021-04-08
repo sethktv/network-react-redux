@@ -1,0 +1,72 @@
+
+.profileBlock {
+    background-color: white;
+    display: grid;
+    gap: 8px;
+    grid-template-areas: "s" 
+                         "d"
+                         "f"
+                         "b";
+}
+
+.descriptionBlock {
+    padding: 3%;
+    grid-area: d;
+    display: grid;
+    border-radius: 3px/3px;
+    background-color: rgb(233, 233, 233);
+}
+
+.mainPhoto {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+.contact {
+    padding-left: 30px;
+}
+
+.fileOpen {
+    padding-left: 5%;
+}
+
+.status {
+    margin: 0 auto;
+   background-color: rgb(233, 233, 233);
+   justify-items: center;
+    display: grid;
+    grid-area: s;
+    border-radius: 3px/3px;
+} .status span {
+    color:  rgb(107, 104, 104);
+}
+
+.form {
+    display: grid;
+    grid-area: f;
+    border-radius: 3px/3px;
+    background-color:rgb(233, 233, 233);
+    padding: 3% 0 3% 4%;
+}
+.form button {
+    margin-left: 4%;
+    margin-bottom: 10px;
+}
+
+.postsBlock {
+    display: grid;
+    grid-area: b;
+    border-radius: 20px/20px;
+    background-color: rgb(233, 233, 233);
+    padding: 0 20px 20px 20px;
+}
+.postsBlock textarea {
+    width: 90%;
+    height: 30px;
+}
+
+.posts {
+    margin-top: 15px;
+    background: white;
+}
